@@ -1,11 +1,52 @@
-skills/
-upload/
-download/
-db/
+# Dependencies
 node_modules/
-.venv/
-__pycache__/
-*.log
+.pnp/
+.pnp.js
+
+# Build
 .next/
+out/
 dist/
 build/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+npm-debug.log*
+bun-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache/
+
+# Database
+*.db
+*.db-journal
+prisma/migrations/migration_lock.toml
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# Temp
+tmp/
+temp/
+.zscripts/
+dev.log
+server.log
