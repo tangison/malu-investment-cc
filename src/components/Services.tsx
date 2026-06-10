@@ -2,25 +2,25 @@ import Image from "next/image";
 
 const services = [
   {
-    image: "/images/taxi.png",
+    image: "/images/taxi.webp",
     title: "Taxi Transport",
     description: "Reliable point-to-point transport across Okahandja and surrounds.",
     featured: true,
   },
   {
-    image: "/images/construction.png",
+    image: "/images/construction.webp",
     title: "Construction & Renovation",
     description: "Building and renovation services for residential and commercial clients.",
     featured: false,
   },
   {
-    image: "/images/logistics.png",
+    image: "/images/logistics.webp",
     title: "Logistics & Import/Export",
     description: "Goods movement and supply chain support.",
     featured: false,
   },
   {
-    image: "/images/cleaning.png",
+    image: "/images/cleaning.webp",
     title: "Cleaning & Carwash",
     description: "Commercial and residential cleaning services.",
     featured: false,

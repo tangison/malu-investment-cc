@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Hero background image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-bg.png"
+          src="/images/hero-bg.webp"
           alt="Namibian road stretching through the savanna"
           fill
           className="object-cover object-center"
