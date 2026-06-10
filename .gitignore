@@ -50,3 +50,4 @@ temp/
 .zscripts/
 dev.log
 server.log
+.vercel
