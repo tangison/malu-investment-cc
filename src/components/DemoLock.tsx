@@ -7,10 +7,15 @@ interface DemoLockProps {
 
 export default function DemoLock({ pageTitle, pageDescription }: DemoLockProps) {
   return (
-    <section className="min-h-[70vh] flex items-center justify-center px-4">
+    <section className="min-h-[75vh] flex items-center justify-center px-4">
       <div className="text-center max-w-lg">
+        {/* Large decorative chevron */}
+        <div className="text-malu-gold/10 font-[var(--font-barlow)] text-[8rem] sm:text-[10rem] font-black leading-none mb-4 select-none">
+          ›
+        </div>
+
         {/* Badge */}
-        <span className="inline-block bg-malu-gold/10 text-malu-gold font-[var(--font-barlow)] text-xs uppercase tracking-[0.25em] font-bold px-4 py-1.5 border border-malu-gold/30 mb-8">
+        <span className="inline-block bg-malu-gold/10 text-malu-gold font-[var(--font-barlow)] text-xs uppercase tracking-[0.25em] font-bold px-4 py-1.5 border border-malu-gold/30 mb-6">
           Demo — Coming Soon
         </span>
 
@@ -20,7 +25,7 @@ export default function DemoLock({ pageTitle, pageDescription }: DemoLockProps) 
         </h1>
 
         {/* Description */}
-        <p className="text-malu-white/50 text-base sm:text-lg leading-relaxed mb-8">
+        <p className="text-malu-white/50 text-base sm:text-lg leading-relaxed mb-8 font-[var(--font-inter)]">
           {pageDescription ||
             "This page is part of a demo build by Tangison Studio. The full site is on its way."}
         </p>
@@ -28,7 +33,7 @@ export default function DemoLock({ pageTitle, pageDescription }: DemoLockProps) 
         {/* CTA */}
         <Link
           href="/"
-          className="inline-block bg-malu-gold text-malu-black font-[var(--font-barlow)] text-sm uppercase tracking-[0.1em] font-bold px-8 py-3.5 hover:bg-malu-gold/90 transition-all hover:scale-[1.02] active:scale-[0.98]"
+          className="inline-flex items-center gap-2 bg-malu-gold text-malu-black font-[var(--font-barlow)] text-sm uppercase tracking-[0.1em] font-bold px-8 py-3.5 hover:bg-malu-gold/90 transition-all hover:scale-[1.02] active:scale-[0.98]"
         >
           ← Back to Homepage
         </Link>
