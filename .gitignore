@@ -51,3 +51,5 @@ temp/
 dev.log
 server.log
 .vercel
+upload/
+studio-os/

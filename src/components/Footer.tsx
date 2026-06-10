@@ -87,7 +87,7 @@ export default function Footer() {
               className="flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
               <Image
-                src="/images/tangison-studio.png"
+                src="/images/tangison-studio.webp"
                 alt="Tangison Studio"
                 width={80}
                 height={16}
