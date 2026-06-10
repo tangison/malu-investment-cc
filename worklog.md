@@ -46,3 +46,28 @@ Stage Summary:
 - GitHub repo: https://github.com/tangison/malu-investment-cc
 - All pages verified 200 OK
 - Build compiled successfully with Turbopack on Vercel
+
+---
+Task ID: 3
+Agent: Super Z (main)
+Task: Add imagery, make site more visual, rename to maluinvestments.vercel.app
+
+Work Log:
+- Generated 5 AI images: hero-bg.png (Namibian road), taxi.png, construction.png, logistics.png, cleaning.png
+- Copied Tangison Studio brand assets (tangison-studio.png, tangison-icon.png) to public/images/
+- Updated Hero component: added hero background image with gradient overlays for readability
+- Updated Services component: added image headers to each service card with hover zoom effect
+- Updated WhyMalu component: added section header, centered layout, arrow background pattern, gold icon boxes
+- Updated CTABanner: added large decorative chevron arrows, bigger typography, outlined phone button
+- Updated DemoLock: added large decorative chevron, improved spacing
+- Updated Footer: added Tangison Studio logo image, tagline, Fleet link
+- Renamed Vercel project to "maluinvestments"
+- Added maluinvestments.vercel.app domain (verified, live)
+- Pushed all changes to GitHub
+- Redeployed to Vercel production
+
+Stage Summary:
+- Live site: https://maluinvestments.vercel.app
+- All pages verified 200 OK on new domain
+- Site now fully visual with hero image, service card images, decorative elements
+- GitHub: https://github.com/tangison/malu-investment-cc
